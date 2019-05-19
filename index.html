@@ -1,62 +1,81 @@
-<!DOCTYPE html>
-<html lang="en-us">
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="./css/normalize.css">
-        <link rel="stylesheet" href="./css/main.css">
-        <link rel="stylesheet" href="./css/me.css">
-        <link rel="stylesheet" href="./css/nav.css">
-        <link rel="stylesheet" href="./css/font.css">
-        <title>me</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-        <nav id="nav">
-            <div class="container">
-                    <div id="navbar" class="column full">
-                        <div class="row clearfix">
-                            <div class="logo">Pitirak J.</div>
-                            <a class="nav-item" href="./movie.html">movie</a>
-                            <a class="nav-item" href="./photo.html">photo</a>
-                            <a class="nav-item" href="./personal Information.html">personal Information</a>  
-                            <a class="nav-item" href="./index.html">home</a>
-                        </div>
-                    </div>
-                    <div id="toggle" class="toggle">
-                            <span id="line1" class="line"></span>
-                            <span id="line2" class="line"></span>
-                            <span id="line3" class="line"></span>
-                    </div>
-            </div>
-        </nav>
-        <header>
-            <div class="container">
-                <div class="row clearfix">
-                    <div class="column full">
-                        <h1>Pitirak Jaikeaw</h1>
-                        <p>Personal Website Project</p>
-            </div>
-        </header>
-        <section>
-                <div class="container">
-                    <img src="./img/me/me.jpg" alt="me" id="me">
-                    <div class="row clearfix">
-                        <div class="column full half">
-                    </div>
-                </div>
-        </section>
-        
-        <footer>
-                <div class="container">
-                    <div class="row mark clearfix">
-                        <div class="column mark full">
-                            <p>&copy; Pitirak  Jaikeaw</p>
-                            <p>(12/5/2562)</p>
-                        </div>
-                    </div>
-            </div>
-        </footer>
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <script src="./js/navbar.js"></script>
-    </body>
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700italic,700' rel='stylesheet' type='text/css'><!-- font -->
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- Css Reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Css Style -->
+	<script src="js/modernizr.js"></script> <!-- JS -->
+  	
+	<title>Me</title>
+</head>
+<body>
+	<header>
+		<button class="cd-nav-trigger">Menu<span aria-hidden="true" class="cd-icon"></span></button>
+	</header>
+
+	<nav class="cd-primary-nav">
+		<ul>
+			<li class="cd-label">Navigation</li>
+			<li><a href="#0">HOME</a></li>
+			<li><a href="#0">เครดิต</a></li>
+		</ul>
+	</nav> 
+	
+	<div class="cd-projects-container">
+		<ul>
+			<li class="single-project">
+				<div class="cd-title">
+					<h2>Pitirak  Jaikeaw</h2>
+				</div> <!-- หัวข้อ -->
+
+				<div class="cd-project-info">
+					<button class="cd-scroll">Scroll down</button>
+					
+					<div class="content-wrapper">
+						<p>
+						
+						</p>
+					</div>
+				</div> <!-- ส่วนท้าย -->
+			</li>
+			<li class="single-project">
+				<div class="cd-title">
+					<h2>My Hobby</h2>
+				</div> <!-- หัวข้อ -->
+
+				<div class="cd-project-info">
+					<button class="cd-scroll">Scroll down</button>
+
+					<div class="content-wrapper">
+						<p>
+							
+						</p>
+					</div>
+				</div> <!-- ส่วนท้าย -->
+			</li>
+
+			<li class="single-project">
+				<div class="cd-title">
+					<h2>Travel</h2>
+				</div> <!-- หัวข้อ -->
+
+				<div class="cd-project-info">
+					<button class="cd-scroll">Scroll down</button>
+					
+					<div class="content-wrapper">
+						<p>
+
+						</p>
+					</div>
+				</div> <!-- ส่วนท้าย -->
+			</li>
+		</ul>
+	</div> <!-- ส่วนท้าย container -->
+<script src="js/jquery-2.1.4.js"></script>
+<script src="js/main.js"></script>
+</body>
 </html>
